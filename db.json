@@ -1,0 +1,59 @@
+{
+    "movies": [
+      {
+        "id": "movie1",
+        "title": "Movie 1",
+        "image": "assets/images/black mirror.jpeg",
+        "runtime": "120 minutes",
+        "showtime": "7:00 PM",
+        "capacity": 150,
+        "tickets_remaining": 50
+      },
+      {
+        "id": "movie2",
+        "title": "Movie 2",
+        "image": "assets/images/dune2.jpeg",
+        "runtime": "135 minutes",
+        "showtime": "9:00 PM",
+        "capacity": 150,
+        "tickets_remaining": 30
+      },
+      {
+        "id": "movie3",
+        "title": "Movie 3",
+        "image": "assets/images/hitman.jpeg",
+        "runtime": "110 minutes",
+        "showtime": "5:00 PM",
+        "capacity": 200,
+        "tickets_remaining": 80
+      },
+      {
+        "id": "movie4",
+        "title": "Movie 4",
+        "image": "assets/images/the substance.jpeg",
+        "runtime": "125 minutes",
+        "showtime": "8:30 PM",
+        "capacity": 180,
+        "tickets_remaining": 60
+      },
+      {
+        "id": "movie5",
+        "title": "Movie 5",
+        "image": "assets/images/substance 2.jpeg",
+        "runtime": "105 minutes",
+        "showtime": "6:30 PM",
+        "capacity": 200,
+        "tickets_remaining": 40
+      },
+      {
+        "id": "movie6",
+        "title": "Movie 6",
+        "image": "assets/images/warzone.jpeg",
+        "runtime": "130 minutes",
+        "showtime": "10:00 PM",
+        "capacity": 180,
+        "tickets_remaining": 70
+      }
+    ]
+  }
+  

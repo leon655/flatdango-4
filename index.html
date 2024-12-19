@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango Movie Theatre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .movie-poster {
+            width: 22%;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .movie-poster img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .movie-poster button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .movie-poster button:hover {
+            background-color: #0056b3;
+        }
+        .movie-info {
+            margin-top: 10px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .movies-row {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .movies-row-bottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flatdango Movie Theatre</h1>
+        <p>All your movies in one place</p>
+    </header>
+
+    <div class="movies-row">
+        <div id="movie1" class="movie-poster">
+            <img src="assets/images/black mirror.jpeg" alt="assets/images/black mirror.jpeg" class="movie-image">
+            <button onclick="showMovieInfo('movie1')">Buy Ticket</button>
+            <div class="movie-info" id="movie1-info"></div>
+        </div>
+        <div id="movie2" class="movie-poster">
+            <img src="assets/images/dune2.jpeg" alt="assets/images/dune2.jpeg" class="movie-image">
+            <button onclick="showMovieInfo('movie2')">Buy Ticket</button>
+            <div class="movie-info" id="movie2-info"></div>
+        </div>
+    </div>
+
+    <div class="movies-row-bottom">
+        <div id="movie3" class="movie-poster">
+            <img src="assets/images/substance 2.jpeg" alt="Movie 3" class="movie-image">
+            <button onclick="showMovieInfo('movie3')">Buy Ticket</button>
+            <div class="movie-info" id="movie3-info"></div>
+        </div>
+        <div id="movie4" class="movie-poster">
+            <img src="assets/images/hitman.jpeg" alt="assets/images/warzone.jpeg" class="movie-image">
+            <button onclick="showMovieInfo('movie4')">Buy Ticket</button>
+            <div class="movie-info" id="movie4-info"></div>
+        </div>
+        <div id="movie5" class="movie-poster">
+            <img src="assets/images/warzone.jpeg" alt="Movie 5" class="movie-image">
+            <button onclick="showMovieInfo('movie5')">Buy Ticket</button>
+            <div class="movie-info" id="movie5-info"></div>
+        </div>
+        <div id="movie6" class="movie-poster">
+            <img src="assets/images/substance 2.jpeg" alt="Movie 6" class="movie-image">
+            <button onclick="showMovieInfo('movie6')">Buy Ticket</button>
+            <div class="movie-info" id="movie6-info"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Flatdango Movie Theatre</p>
+    </footer>
+
+    <script src="flatdango3.js"></script>
+</body>
+</html>
